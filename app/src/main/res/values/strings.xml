@@ -4,4 +4,5 @@
     <string name="btn_resultado">Resultado</string>
     <string name="gasolina">Digite o preço da gasolina. Ex: 3.90</string>
     <string name="alcool">Digite o preço da álcool. Ex: 1.90</string>
+    <string name="rendimento">Sabe o rendimento do seu carro ?</string>
 </resources>

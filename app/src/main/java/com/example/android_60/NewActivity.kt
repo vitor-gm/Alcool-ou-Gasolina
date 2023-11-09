@@ -14,15 +14,15 @@ class NewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new)
-        gasolina2 = findViewById(R.id.textView3)
-        alcool2 = findViewById(R.id.textView2)
+
+
         val intent = intent
         if(intent.hasExtra("gasolina") && intent.hasExtra("alcool")){
             val gasolina = intent.getStringExtra("gasolina")
             val alcool = intent.getStringExtra("alcool")
             if(gasolina != null && alcool != null){
-                gasolina2.text = gasolina
-                alcool2.text = alcool
+
+
             }
         }
         fechar = findViewById(R.id.close)

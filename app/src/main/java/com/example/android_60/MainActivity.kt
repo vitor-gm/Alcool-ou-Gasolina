@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var resultadoDetalhado: Button
     private lateinit var textResultado: TextView
     private lateinit var aviso: TextView
+    private lateinit var rendimento: TextView
 
     private fun config(){
         gasolinaInput = findViewById(R.id.text_gasolina)
@@ -32,6 +33,8 @@ class MainActivity : AppCompatActivity() {
         textResultado = findViewById(R.id.text_resultado)
 
         resultadoDetalhado = findViewById(R.id.btn_detalhado)
+
+        rendimento = findViewById(R.id.rendimento)
 
     }
     private fun verificar(pGasolina: String, pAlcool: String): Boolean{
