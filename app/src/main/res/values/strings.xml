@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GasolinaOuAlcool</string>
+    <string name="saiba_a_melhor_opcao_para_abastecer_o_seu_carro">Saiba a melhor opção para abastecer o seu carro!</string>
+    <string name="btn_resultado">Resultado</string>
+    <string name="gasolina">Digite o preço da gasolina. Ex: 3.90</string>
+    <string name="alcool">Digite o preço da álcool. Ex: 1.90</string>
+</resources>
