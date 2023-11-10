@@ -25,7 +25,7 @@ class NewActivity : AppCompatActivity() {
 
             }
         }
-        fechar = findViewById(R.id.close)
+        fechar = findViewById(R.id.button)
         fechar.setOnClickListener(){
             finish()
         }
