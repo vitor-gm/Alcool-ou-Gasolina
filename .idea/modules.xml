@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/githubalcoolougasolina.iml" filepath="$PROJECT_DIR$/.idea/githubalcoolougasolina.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-6.0.iml" filepath="$PROJECT_DIR$/.idea/modules/android-6.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-6.0.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-6.0.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-6.0.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-6.0.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-6.0.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-6.0.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-6.0.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-6.0.app.unitTest.iml" />
     </modules>
   </component>
 </project>
