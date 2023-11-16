@@ -32,9 +32,8 @@ class MainActivity : AppCompatActivity() {
         resultado = findViewById(R.id.btn_resultado)
         textResultado = findViewById(R.id.text_resultado)
 
-        resultadoDetalhado = findViewById(R.id.btn_detalhado)
 
-        rendimento = findViewById(R.id.rendimento)
+
 
     }
     private fun verificar(pGasolina: String, pAlcool: String): Boolean{
@@ -59,7 +58,7 @@ class MainActivity : AppCompatActivity() {
         if(validacao){
 
             val resultado = precoAlcool.toDouble() / precoGasolina.toDouble()
-            if(resultado >= 0.7){
+            if(resultado >= 0.73){
                 textResultado.text = "É melhor utilizar gasolina!"
             }else{
                 textResultado.text = "É melhor utilizar  álcool!"
@@ -81,14 +80,7 @@ class MainActivity : AppCompatActivity() {
 
 
         }
-        resultadoDetalhado.setOnClickListener(){
-            val gasolina = gasolinaEditInput.text.toString()
-            val alcool = alcoolEditInput.text.toString()
-            val intent = Intent(this, NewActivity::class.java)
-            intent.putExtra("gasolina", gasolina)
-            intent.putExtra("alcool", alcool)
-            startActivity(intent)
-        }
+
 
 
 
