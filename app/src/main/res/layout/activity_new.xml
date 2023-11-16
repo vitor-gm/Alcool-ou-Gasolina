@@ -41,6 +41,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/digite_o_rendimento_em_km_l_com_gasolina"
             android:inputType="number|numberDecimal" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -57,13 +58,13 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="267dp"
-        android:layout_height="365dp"
+        android:layout_width="219dp"
+        android:layout_height="248dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/economia"
+        app:layout_constraintVertical_bias="0.122"
         app:srcCompat="@drawable/carro_amarelo" />
 
     <TextView
@@ -78,4 +79,18 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/economia"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:text="economia"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
